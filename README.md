@@ -1,5 +1,5 @@
 ## VIEW THE EXAMPLE
-**[https://mustafacan.dev/](https://mustafcan.dev/)**
+**[https://mustafacan.dev/](https://mustafacan.dev/)**
 
 First, run the development server:
 
