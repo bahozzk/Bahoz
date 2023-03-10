@@ -30,10 +30,6 @@ const AboutMe: NextPage = (pageProps: PageProps): JSX.Element => {
     const content = <p className='text-center my-4 text-lg text-white/80'>
         Merhaba! Ben&apos; Bahoz lise öğrencisiyim
         <br></br>
-        Also, since I&apos;m a high school student, I can only code in my spare time.
-        <br></br>
-        But if you have a project in your mind, don&apos;t hesitate to contact me, I&apos;m a freelancer!
-        <br></br>
         .... <a className='text-orange-400/90' target={'_blank'} href='https://con.city/' rel="noreferrer">ConCity</a>!
     </p>
 
