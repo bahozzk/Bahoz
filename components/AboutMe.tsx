@@ -6,12 +6,8 @@ import type { PageProps } from '../types';
 const AboutMe: NextPage = (pageProps: PageProps): JSX.Element => {
     const links = [
         {
-            icon: faGithub,
-            href: '/github'
-        },
-        {
             icon: faInstagram,
-            href: '/instagram'
+            href: 'https://instagram.com/bahozzx'
         },
         {
             icon: faTwitter,
@@ -19,11 +15,11 @@ const AboutMe: NextPage = (pageProps: PageProps): JSX.Element => {
         },
         {
             icon: faDiscord,
-            href: '/discord'
+            href: 'https://discord.com/users/673849208154882078'
         },
         {
             icon: faYoutube,
-            href: '/youtube'
+            href: 'https://youtube.com/@BahozK'
         }
     ];
 
