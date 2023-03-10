@@ -7,7 +7,7 @@ import style from '../styles/home.module.css';
 
 const Hero: NextPage = (pageProps: PageProps): JSX.Element => {
     const subtitles: string[] = [
-        "Jr. Full-Stack Web Developer",
+        "Havalı Bir Şeyler.",
         //"And other things..",
     ];
 
@@ -21,7 +21,7 @@ const Hero: NextPage = (pageProps: PageProps): JSX.Element => {
                 </div>
                 <div className='block m-10 lg:m-2'>
                     <div className='flex flex-col items-center justify-center'>
-                        <h1 className='text-6xl md:text-5xl font-semibold my-3 text-center uppercase tracking-wide'>Mustafa Can</h1>
+                        <h1 className='text-6xl md:text-5xl font-semibold my-3 text-center uppercase tracking-wide'>BahozzK</h1>
                         <div className='block'>
                             <p onAnimationEnd={async (e) => {
                                 const target = (e.target as Element);
@@ -44,7 +44,7 @@ const Hero: NextPage = (pageProps: PageProps): JSX.Element => {
                     <div className='animate-bounce h-10 m-7 flex flex-row items-center justify-center cursor-pointer'>
                         <span onClick={() => {
                             document.getElementById("aboutme")?.scrollIntoView();
-                        }} className='text-lg md:text-base'>View More.. <FontAwesomeIcon icon={faCircleDown} /></span>
+                        }} className='text-lg md:text-base'>Daha fazlası.. <FontAwesomeIcon icon={faCircleDown} /></span>
                     </div>
                 </div>
             </div>
