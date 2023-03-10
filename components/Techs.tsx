@@ -7,7 +7,7 @@ const Techs: NextPage = (pageProps: PageProps): JSX.Element => {
   const techs = [
     {
       //Minecraft Evi
-      icon: <FontAwesomeIcon color={'#d64613'} size="6x" icon={faMinecraft} />,
+      icon: 'https://media.discordapp.net/attachments/1077331799262363649/1083800777799249930/minecraftevi.png'
       href: 'https://youtube.com/minecraftevi'
     }
   ]
